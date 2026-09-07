@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const UPSTREAM = "https://project-demo.in/gl-bajaj-demo/api/ai-search";
+const UPSTREAM = "https://glbitm.project-demo.in/api/ai-search";
 
 export async function GET(request: NextRequest) {
   const q = request.nextUrl.searchParams.get("q");
